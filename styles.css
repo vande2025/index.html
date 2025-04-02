@@ -1,0 +1,131 @@
+
+
+body {
+    color: rgb(20, 173, 140); /* Define a cor do texto do corpo do documento */
+}
+
+h1 {
+    color: rgb(110, 21, 205); /* Define a cor do texto dos títulos h1 */
+}
+
+p {
+    color: rgba(30, 20, 163, 0.848); /* Define a cor do texto dos parágrafos */
+}
+a {
+    color: rgb(201, 18, 24); /* Define a cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+a:hover {
+    color: rgb(226, 39, 70); /* Altera a cor quando o mouse passa sobre o link */
+}
+
+a:visited {
+    color: rgb(200, 45, 66); /* Define a cor dos links já visitados */
+}
+
+a:active {
+    color: rgb(216, 32, 48); /* Define a cor do link quando clicado */
+
+    .menu-acessibilidade{
+        position: fixed;
+        top:2rem;
+        right:20px;
+        z-index: 1000;
+    }
+    
+    .rotacao-botao{
+        transform: rotate(-90deg);
+        transform-origin: right center;
+    }
+    
+    .opcoes-acessibilidade{
+        margin-top:60px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .opcoes-acessibilidade button{
+        margin-bottom: 10px;
+    }
+    
+    .apresenta-lista{
+        display: none;
+    }
+
+    
+
+    .menu-acessibilidade{
+        position: fixed;
+        top:2rem;
+        right:20px;
+        z-index: 1000;
+    }
+    
+    .rotacao-botao{
+        transform: rotate(-90deg);
+        transform-origin: right center;
+    }
+    
+    .opcoes-acessibilidade{
+        margin-top:10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .opcoes-acessibilidade button{
+        margin-bottom: 5px;
+    }
+    
+    .apresenta-lista{
+        display: none;
+    }
+
+
+
+
+    :root {
+        --laranja-claro: #FF862A;
+        --alto-contraste-fundo: #ab3b3b;
+        --alto-contraste-texto: #cf3d3d;
+        --alto-contraste-link: #0a1daa;
+    }.alto-contraste {
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-texto);
+    }.alto-contraste {
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-texto);
+    }.alto-contraste header,
+    .alto-contraste footer,
+    .alto-contraste .formulario {
+        background-color: var(--alto-contraste-fundo);
+        color: var(--alto-contraste-texto);
+    }
+    
+    .alto-contraste .nav-link {
+        color: var(--alto-contraste-link);
+    }
+    
+    .alto-contraste .botao-inicio,
+    .alto-contraste .formulario button,
+    .alto-contraste .btn-primary {
+        background-color: var(--alto-contraste-link);
+        color: var(--alto-contraste-fundo);
+    }
+    
+    .alto-contraste #tropicalia {
+        background: none;
+    }
+    
+    .alto-contraste #galeria {
+        background-color: var(--alto-contraste-fundo);
+    }
+    
+    .alto-contraste .fundo-galeria {
+        background: none;
+    }
+
+
+    body {
+        background-color: rgb(250, 42, 56); /* Fundo azul */
+    }
